@@ -1,0 +1,2 @@
+explorer_bot
+-DCATKIN_DEVEL_PREFIX=/home/niran/ros_projects/ROS-Navigation/devel -DCMAKE_INSTALL_PREFIX=/home/niran/ros_projects/ROS-Navigation/install -G Unix Makefiles

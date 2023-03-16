@@ -1,0 +1,8 @@
+prefix=/home/niran/ros_projects/ROS-Navigation/devel
+
+Name: explorer_bot
+Description: Description of explorer_bot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
