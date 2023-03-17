@@ -195,7 +195,7 @@
 <gazebo reference="wheel_left_link">
   <material>Gazebo/Blue</material>
 </gazebo> 
-<!-- DIFFENERNTIAL DRIVEEEEEEEEEEEEE -->
+<!-- DIFFENERNTIAL DRIVE-->
 
 <gazebo>
   <plugin name="differential_drive_controller"

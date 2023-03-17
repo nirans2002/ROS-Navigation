@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
+
+
 <robot name="luqman_bot">
+<link name= "world"/>
 
     <link name="base_link">
         <visual>
@@ -22,7 +25,11 @@
         
     </link>
 
-
+ <joint name="front_caster_of_wheel_joint" type="fixed">
+       <parent link="world"/>
+       <child link="base_link/"/>
+      
+    </joint>
 
     <link name="front_caster_of_wheel">
         <visual>
