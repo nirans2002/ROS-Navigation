@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/niran/ros_projects/ROS-Navigation/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/niran/ros_projects/ROS-Navigation/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/niran/ros_projects/ROS-Navigation/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/niran/ros_projects/ROS-Navigation/build'
 export ROSLISP_PACKAGE_DIRECTORIES='/home/niran/ros_projects/ROS-Navigation/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/niran/ros_projects/ROS-Navigation/src:$ROS_PACKAGE_PATH"
