@@ -18,7 +18,7 @@
     <!-- map -->
 
     <node name="gmapping" pkg="gmapping" type="slam_gmapping">
-        <param name="base_frame" value="base_link"/>
+        <param name="base_frame" value="base_footprint"/>
         <param name="odom_frame" value="odom"/>
         <param name="delta" value="0.1"/>       
     </node>
