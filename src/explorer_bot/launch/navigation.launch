@@ -11,7 +11,7 @@
 
     <node name="Rsp" pkg="robot_state_publisher" type="robot_state_publisher" output="screen"/>
 
-    <node name="Joint_tester" pkg="rviz" type="rviz" output="screen" args="-d $(find explorer_bot)/config/map.rviz"/>
+    <node name="Joint_tester" pkg="rviz" type="rviz" output="screen" args="-d $(find explorer_bot)/config/nav.rviz"/>
 
 
    
