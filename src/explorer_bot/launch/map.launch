@@ -12,7 +12,7 @@
 
 
     <!-- rviz -->
-    <node name="Joint_tester" pkg="rviz" type="rviz" output="screen" args="$(find explorer_bot)/config/simple.rviz"/>
+    <node name="Joint_tester" pkg="rviz" type="rviz" output="screen" args="$(find explorer_bot)/config/map.rviz"/>
 
 
     <!-- map -->
